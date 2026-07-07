@@ -1,8 +1,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://rovanid.github.io/desanet/)
 
----
-
 # TUTORIAL SISTEM ISOLIR PPPoE MIKROTIK
 
 ## Versi Dokumentasi
