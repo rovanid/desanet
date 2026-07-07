@@ -76,8 +76,8 @@ body{
 }
 
 /* Layout */
-.container{width:100%;max-width:500px;padding:16px;flex:1}
-
+.container{width:100%;max-width:500px;padding:16px;margin-bottom:20px;};
+  
 /* Banner isolir */
 .banner-isolir{
   background:var(--danger-bg);
@@ -196,7 +196,7 @@ body{
 /* Footer */
 .footer{
   width:100%;
-  padding:28px 16px;
+  padding:16px 16px;
   background:var(--footer-bg);
   color:var(--text-muted);
   text-align:center;
@@ -223,6 +223,18 @@ body{
 .footer a:hover {
   color: var(--green-700); /* Warna berubah menjadi hijau saat di-hover agar interaktif */
   text-decoration: underline;
+}
+
+  /* Pengaturan khusus untuk layar laptop/tablet besar */
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px; /* Mengizinkan kontainer melebar hingga 800px */
+    padding: 24px; /* Menambah ruang kosong di pinggir agar lebih lega */
+  }
+  
+  .card-body {
+    padding: 24px; /* Menyesuaikan jarak dalam kartu */
+  }
 }
 
 </style>
@@ -328,6 +340,7 @@ body{
   <strong>DESANET</strong> · connecting everyone<br>
   Halaman ini dibuat oleh <a href="https://rovan.id" target="_blank" rel="noopener">rovan.id</a>.
 </div>
+  
 
 <!-- paket=PAKET-20M;tagihan=150000;periode=Juli-2026;tempo=05-07-2026 -->
 <script>
