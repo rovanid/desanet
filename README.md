@@ -1,5 +1,5 @@
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://rovanid.github.io/desanet/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://rovanid.github.io/desanet/error.html)
 
 # TUTORIAL SISTEM ISOLIR PPPoE MIKROTIK
 
